@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1a0e18">
+<title>Mahal ♡ Ten Months of Us</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Quicksand:wght@400;500;600&family=Caveat:wght@500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+<canvas id="sky" aria-hidden="true"></canvas>
+
+<!-- ============ GATE ============ -->
+<div class="gate" id="gate">
+  <div class="gate-inner">
+    <p class="gate-to">Para sa'yo,</p>
+    <p class="gate-name">Mahal</p>
+    <button class="seal" id="openGate" type="button" aria-label="Open your surprise">
+      <svg viewBox="0 0 64 58" aria-hidden="true"><path d="M32 56S2 37.5 2 18.5C2 8.8 9.6 2 18.6 2 25 2 29.6 5.6 32 10c2.4-4.4 7-8 13.4-8C54.4 2 62 8.8 62 18.5 62 37.5 32 56 32 56Z"/></svg>
+    </button>
+    <p class="gate-hint">tap the heart</p>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="slides" id="slides" aria-hidden="true"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <p class="eyebrow">October 10, 2026 · Happy 10th Monthsary</p>
+    <h1 class="script">Mahal</h1>
+    <p class="hero-sub">Ten months of you and me.</p>
+    <div class="clock" aria-label="Time together">
+      <div><strong id="cDays">0</strong><span>days</span></div>
+      <div><strong id="cHours">0</strong><span>hours</span></div>
+      <div><strong id="cMins">0</strong><span>minutes</span></div>
+      <div><strong id="cSecs">0</strong><span>seconds</span></div>
+    </div>
+    <p class="since">and counting, since December 10, 2025, the day you said yes</p>
+  </div>
+  <a class="scroll-cue" href="#meaning" aria-label="Scroll down"><span></span></a>
+</header>
+
+<main>
+  <!-- ============ MEANING ============ -->
+  <section class="meaning reveal" id="meaning">
+    <p class="word">ma·hal</p>
+    <p class="pron">/ma-HAL/ &nbsp;·&nbsp; <i>Filipino</i></p>
+    <ol class="defs">
+      <li><b>love;</b> the person you love. <i>"Good morning, Mahal."</i></li>
+      <li><b>precious;</b> dear; worth more than anything. <i>"Mahal ka sa akin."</i></li>
+    </ol>
+    <p class="meaning-note">Ten months ago it became my favorite word, because it's what I call you. It means both, and you're both.</p>
+  </section>
+
+  <!-- ============ MONTHS ============ -->
+  <section class="months-wrap reveal" aria-labelledby="monthsTitle">
+    <h2 class="section-title" id="monthsTitle"><span>ten monthsaries</span>One heart for every tenth</h2>
+    <ol class="months" id="months"></ol>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section class="story" aria-labelledby="storyTitle">
+    <h2 class="section-title reveal" id="storyTitle"><span>our story so far</span>Little chapters of us</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="videos" aria-labelledby="videoTitle">
+    <h2 class="section-title reveal" id="videoTitle"><span>moving memories</span>Press play, Mahal</h2>
+    <div class="video-row" id="videos"></div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery-wrap" aria-labelledby="galleryTitle">
+    <h2 class="section-title reveal" id="galleryTitle"><span>every picture of us</span>Our whole album</h2>
+    <p class="section-note reveal">Tap any photo to see it big.</p>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <!-- ============ LETTER ============ -->
+  <section class="letter-section" id="letter" aria-labelledby="letterTitle">
+    <h2 class="section-title reveal"><span>one more thing</span>A letter for you</h2>
+    <div class="envelope reveal" id="envelope">
+      <button class="env-btn" id="envBtn" type="button" aria-expanded="false" aria-controls="paper">
+        <span class="env-back"></span>
+        <span class="env-flap"></span>
+        <span class="env-front"></span>
+        <span class="env-heart">♥</span>
+        <span class="env-label">open me</span>
+      </button>
+      <article class="paper" id="paper">
+        <h3 id="letterTitle">My dearest Mahal,</h3>
+        <p>Happy 10th monthsary! Ten months ago I had no idea how much one person could change my everyday. Now my favorite part of every day is you.</p>
+        <p>Thank you for the laughs, the patience, the late-night talks, and for staying even on the hard days. Thank you for every trail we walked, every silly selfie, every meal we shared, and every quiet moment that only made sense because you were in it.</p>
+        <p>Looking back at all these pictures, I noticed something: in almost every one, I'm looking at the camera, and I'm smiling because you're next to me. That's what these ten months have been. Me, smiling, because of you.</p>
+        <p>I'm proud of us and of everything we're building together. Here's to month eleven, and to all the ones after that.</p>
+        <p class="tl">Mahal na mahal kita.</p>
+        <p class="sign">Forever yours ♡</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ FINALE ============ -->
+  <footer class="finale" id="finale">
+    <p class="script finale-big">Mahal kita</p>
+    <p class="finale-sub">today, tomorrow, and every tenth after this.</p>
+    <button class="burst-btn" id="burstBtn" type="button">Send a little love ♡</button>
+    <a class="back-top" href="#top">back to the top</a>
+  </footer>
+</main>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-close" id="lbClose" type="button" aria-label="Close">×</button>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Previous photo">‹</button>
+  <figure class="lb-figure">
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Next photo">›</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
